@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/thematrix/CSharpProjects/Lab11/Task1_Client/Task1_Client.csproj": {}
+    "/home/thematrix/CSharpProjects/Lab11/Task2/Task2.csproj": {}
   },
   "projects": {
-    "/home/thematrix/CSharpProjects/Lab11/Task1_Client/Task1_Client.csproj": {
+    "/home/thematrix/CSharpProjects/Lab11/Task2/Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/thematrix/CSharpProjects/Lab11/Task1_Client/Task1_Client.csproj",
-        "projectName": "Task1_Client",
-        "projectPath": "/home/thematrix/CSharpProjects/Lab11/Task1_Client/Task1_Client.csproj",
+        "projectUniqueName": "/home/thematrix/CSharpProjects/Lab11/Task2/Task2.csproj",
+        "projectName": "Task2",
+        "projectPath": "/home/thematrix/CSharpProjects/Lab11/Task2/Task2.csproj",
         "packagesPath": "/home/thematrix/.nuget/packages/",
-        "outputPath": "/home/thematrix/CSharpProjects/Lab11/Task1_Client/obj/",
+        "outputPath": "/home/thematrix/CSharpProjects/Lab11/Task2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/thematrix/.nuget/NuGet/NuGet.Config"
@@ -38,13 +38,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -59,6 +55,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
