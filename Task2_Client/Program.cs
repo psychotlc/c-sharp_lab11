@@ -20,7 +20,7 @@ public class ApiClient
     {
         var response = await _httpClient.GetAsync("api/customers");
         response.EnsureSuccessStatusCode();
-        List<Customer> customers = await new Task<List<Customer>>(response.Content.ReadFromJsonAsync());
+        var customers = await response.Content.ReadFromJsonAsync<List<Customer>>();
         return customers;
     }
 
