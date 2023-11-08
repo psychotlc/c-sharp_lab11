@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/thematrix/CSharpProjects/Lab11/Task1/Task1.csproj",
-      "projectName": "Task1",
-      "projectPath": "/home/thematrix/CSharpProjects/Lab11/Task1/Task1.csproj",
+      "projectUniqueName": "/home/thematrix/CSharpProjects/Lab11/Task1_Client/Task1_Client.csproj",
+      "projectName": "Task1_Client",
+      "projectPath": "/home/thematrix/CSharpProjects/Lab11/Task1_Client/Task1_Client.csproj",
       "packagesPath": "/home/thematrix/.nuget/packages/",
-      "outputPath": "/home/thematrix/CSharpProjects/Lab11/Task1/obj/",
+      "outputPath": "/home/thematrix/CSharpProjects/Lab11/Task1_Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/thematrix/.nuget/NuGet/NuGet.Config"
