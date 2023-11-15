@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/thematrix/CSharpProjects/Lab11/Task1_Server/Task1_Server.csproj": {}
+    "/home/narek/Documents/C#/lab11/Task1_Server/Task1_Server.csproj": {}
   },
   "projects": {
-    "/home/thematrix/CSharpProjects/Lab11/Task1_Server/Task1_Server.csproj": {
+    "/home/narek/Documents/C#/lab11/Task1_Server/Task1_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/thematrix/CSharpProjects/Lab11/Task1_Server/Task1_Server.csproj",
+        "projectUniqueName": "/home/narek/Documents/C#/lab11/Task1_Server/Task1_Server.csproj",
         "projectName": "Task1_Server",
-        "projectPath": "/home/thematrix/CSharpProjects/Lab11/Task1_Server/Task1_Server.csproj",
-        "packagesPath": "/home/thematrix/.nuget/packages/",
-        "outputPath": "/home/thematrix/CSharpProjects/Lab11/Task1_Server/obj/",
+        "projectPath": "/home/narek/Documents/C#/lab11/Task1_Server/Task1_Server.csproj",
+        "packagesPath": "/home/narek/.nuget/packages/",
+        "outputPath": "/home/narek/Documents/C#/lab11/Task1_Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/thematrix/.nuget/NuGet/NuGet.Config"
+          "/home/narek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -58,12 +58,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.8, 6.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.415/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
